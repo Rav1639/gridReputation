@@ -124,7 +124,7 @@ export default function Services() {
               ></input>
               <input type="hidden" name="_captcha" value="false"></input>
               <input type="hidden" name="_template" value="table"></input>
-              <input type="hidden" name="_next" value="https://gridreputation.com/thankyou>              
+              <input type="hidden" name="_next" value="https://gridreputation.com/thankyou"></input>              
                <button type="submit" id={s.submit}>
                 Submit
               </button>
