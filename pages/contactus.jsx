@@ -98,7 +98,8 @@ export default function ContactUs(){
                 <input type="hidden" name="_subject" value="Grid Reputation Submission!"></input>
                 <input type="hidden" name="_captcha" value="false"></input>
                 <input type="hidden" name="_template" value="table"></input>
-                <button type="submit" id={s.submit}>Submit </button>
+                 <input type="hidden" name="_next" value="https://gridreputation.com/thankyou>                
+                 <button type="submit" id={s.submit}>Submit </button>
             </form>
            </div>
            <div id={s.img}>
