@@ -76,7 +76,7 @@ export default function ContactUs(){
            <div id={s.contactHeading}>
             Contact Us
             </div>
-            <form action="https://formsubmit.co/diptanshumahish2016@gmail.com" method="POST">
+            <form action="https://formsubmit.co/support@gridreputation.com" method="POST">
                 <label htmlFor="Name">
                     <div className={s.formEle}>
                         Name
