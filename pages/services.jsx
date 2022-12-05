@@ -59,7 +59,7 @@ export default function Services() {
               Fill up this form and we will get back to you asap!
             </div>
             <form
-              action="https://formsubmit.co/support@grdireputation.com"
+              action="https://formsubmit.co/support@gridreputation.com"
               method="POST"
             >
               <label htmlFor="Name">
