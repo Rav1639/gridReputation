@@ -136,7 +136,32 @@ footer{
   align-items: center;
   gap:0.5rem;
 }
-
+/* Thank you */
+#thankBack{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#thankIn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ThankText{
+  font-size: 2rem;
+  color: white;
+}
+#thankLink{
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  width: fit-content;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  
+}
 @media screen and (max-width:1200px) {
   *{
     font-size: 90%;
