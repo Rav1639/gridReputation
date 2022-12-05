@@ -1,0 +1,351 @@
+
+#header {
+  position: relative;
+  padding: 2rem 4rem;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+	animation: gradient 15s ease infinite;
+  background-image: url('/assets/GRID.svg');
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#welcomeImage {
+  height: auto;
+  width: 40vw;
+  border-radius: 2rem;
+  /* box-shadow: rgba(149, 157, 165, 0.714) 0px 8px 24px; */
+}
+#headerText {
+  width: 50vw;
+}
+#headerText h1 {
+  font-size: 4.5rem;
+  color: white;
+  margin: 0;
+  margin-top: 1rem;
+}
+#headerContent {
+  font-size: 2rem;
+  font-weight: 600;
+
+  color: var(--themeColor);
+}
+#a{
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.marEle {
+  font-size: 3rem;
+  padding: 1rem;
+  font-weight: 600;
+  color:WHITE;
+}
+#discover{
+  background-color:var(--themeColor);
+  padding: 1rem 3rem;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  width: fit-content;
+  font-weight: bold;
+  box-shadow: rgba(14, 17, 19, 0.254) 0px 8px 24px;
+}
+.testCard {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+#testiomials {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.testiImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.testiText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.testPerson {
+  text-align: right;
+  font-weight: 600;
+  color: var(--themeColor);
+  font-size: 1rem;
+}
+#numbers{
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#innerNum{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem
+}
+.in{
+  padding: 2rem;
+  background-color: var(--themeColor);
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  gap:0.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.inHead{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.subHeadIn{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+#services {
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+#servicesHead {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--themeColor);
+}
+#servImage {
+  min-width: 30vw;
+}
+#serviveSub {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--themeSec);
+}
+#servicesback {
+  padding: 5rem 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#serviceContent{
+  min-width: min-content;
+  margin-bottom: 2rem;
+}
+.serviceCard {
+  background-color: var(--themeSec);
+  display: flex;
+  align-items: center;
+  padding: 2rem 2rem;
+  min-height: 100%;
+  color: white;
+  border-radius: 1rem;
+  gap: 1rem;
+
+}
+.serviceCard:hover{
+  background-color: var(--themeColor);
+  transition: 500ms ;
+}
+.serviceCardHeading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.serviceCardDetails{
+  font-size: 1rem;
+}
+#serviceContent {
+  width: 40vw;
+  display: grid;
+  padding: 0rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+#int {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#interested {
+  padding: 1rem 3rem;
+  /* text-align: center; */
+  font-size: 1.7rem;
+  color: var(--themeColor);
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+#contactusButton {
+  background-color: var(--themeColor);
+  margin: 1rem 0;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+#who {
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+}
+#whoBack {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:1rem;
+}
+.us{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90%;
+  gap:3rem;
+  overflow: hidden;
+}
+.te{
+  font-size: 1.5rem;
+  background-color: var(--themeSec);
+  padding: 2rem  1rem;
+  border-radius: 0.5rem;
+  max-width: 50vw;
+  color: rgba(255, 255, 255, 0.804);
+  
+}
+.te span{
+  font-weight: bold;
+  color: white;
+}
+.usIM{
+  height: 80%;
+  max-width: 30vw;
+}
+
+#testi{
+  padding: 2rem 4rem;
+}
+@media screen and (max-width: 1040px) {
+  #header{
+    gap:3rem;
+  }
+  #headerText {
+    width: 65vw;
+  }
+  #welcomeImage {
+    width: 28vw;
+  }
+  #servicesback{
+    justify-content: space-between;
+    width: 90vw;
+  }
+  #serviceContent{
+    grid-template-columns: 1fr;
+    gap:1rem
+  }
+}
+@media screen and (max-width:960px) {
+  #headerContent{
+    font-size: 2rem;
+  }
+  #header{
+    padding-top: 0rem;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  #headerText {
+    width: 100%;
+  }
+  #welcomeImage{
+    width: 35vw;
+  }
+  #servicesback{
+   
+    flex-direction: column;
+    width:100%;
+    align-items: flex-start;
+  }
+  #servImage{
+    width: 60vw;
+  } 
+  .serviceCard{
+    width: 86vw;
+  }
+  #whoBack{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width:768px) {
+  #headerText h1{
+    font-size: 4.5rem;
+  }
+  #welcomeImage{
+    width: 70vw;
+    height: auto;
+    border-radius: 0.3rem;
+  }
+  .testiImage{
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .testPerson{
+    font-size: 1rem;
+    text-align: left;
+  }
+  #servicesback{
+    padding: 0;
+  }
+  #servImage{
+    width: 80vw;
+    height: auto;
+    padding: 2rem 0;
+  }
+  .serviceCardDetails{
+    font-size: 1.2rem;
+  }
+  .serviceCard{
+    width: 80vw
+  }
+  #int{
+    width: 80vw;
+    text-align: center;
+  }
+  .us{
+    flex-direction: column;
+    width: 100%;
+  }
+  .te{
+    max-width: 100%;
+  }
+  .te span{
+    font-size: 2rem;
+  }
+  .usIM{
+    max-width: 100%;
+    padding-top: 3rem;
+  }
+}
