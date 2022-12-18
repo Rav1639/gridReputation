@@ -109,7 +109,7 @@ export default function Home() {
           <div id={s.header}>
             <div id={s.headerText}>
               <div id={s.headerContent}>
-                Your first choice when it comes to chosing the best Marketing
+                Your first choice when it comes to choosing the best Marketing
                 Agency!
               </div>
               <h1>GRID REPUTATION.</h1>
