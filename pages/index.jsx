@@ -118,7 +118,7 @@ export default function Home() {
                 <Marquee gradientWidth={0} id={s.mar} speed="40">
                   <div className={s.marEle}>Android Development |</div>
                   <div className={s.marEle}>Online Rep Management | </div>
-                  <div className={s.marEle}>Seo Buidling |</div>
+                  <div className={s.marEle}>Seo Building |</div>
                   <div className={s.marEle}>Content Writing |</div>
                 </Marquee>
               </div>
