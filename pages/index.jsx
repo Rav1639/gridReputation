@@ -117,8 +117,8 @@ export default function Home() {
               <div>
                 <Marquee gradientWidth={0} id={s.mar} speed="40">
                   <div className={s.marEle}>Android Development |</div>
-                  <div className={s.marEle}>Online Rep Management | </div>
-                  <div className={s.marEle}>Seo Building |</div>
+                  <div className={s.marEle}>Online Reputation Management | </div>
+                  <div className={s.marEle}>SEO Building |</div>
                   <div className={s.marEle}>Content Writing |</div>
                 </Marquee>
               </div>
@@ -136,7 +136,7 @@ export default function Home() {
           <section id="who">
             <div id={s.who}>
               <div id={s.servicesHead}>
-                Why us?
+                Why Us?
                 <div id={s.serviveSub}>Because we offer:</div>
               </div>
               <div id={s.whoBack}>
@@ -195,7 +195,7 @@ export default function Home() {
           </section>
           <section id={s.services}>
             <div id={s.servicesHead}>
-              What do we offer?
+              What Do We Offer?
               <div id={s.serviveSub}>Explore our services</div>
             </div>
             <div id={s.servicesback}>
@@ -215,10 +215,10 @@ export default function Home() {
                     </div>
                     <div className={s.serviceCardText}>
                       <div className={s.serviceCardHeading}>
-                        Android Development
+                        Social Media Marketing
                       </div>
                       <div className={s.serviceCardDetails}>
-                        Get the best android Development support from our staff!
+                        Engage with customers through content creation and community management!
                       </div>
                     </div>
                   </div>
@@ -247,9 +247,9 @@ export default function Home() {
                       <Image src="/assets/rep.svg" width={50} height={50} />
                     </div>
                     <div className={s.serviceCardText}>
-                      <div className={s.serviceCardHeading}>Rep Management</div>
+                      <div className={s.serviceCardHeading}>Reputation Management</div>
                       <div className={s.serviceCardDetails}>
-                        Rep management is meant to help you towards success
+                        Reputation management is meant to help you towards success!
                       </div>
                     </div>
                   </div>
@@ -262,7 +262,7 @@ export default function Home() {
                     </div>
                     <div className={s.serviceCardText}>
                       <div className={s.serviceCardHeading}>
-                        Seo Building Tools
+                        SEO Building Tools
                       </div>
                       <div className={s.serviceCardDetails}>
                         SEO, that makes you known to the world!
