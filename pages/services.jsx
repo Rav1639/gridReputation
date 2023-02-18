@@ -167,51 +167,8 @@ export default function Services() {
           <div id={s.sub}>Browse our services</div>
         </div>
         <div id={s.cards}>
-          <div className={s.card}>
-            <div className={s.cardHead}>UI/UX designing</div>
-            <div className={s.content}>
-              <div className={s.text}>
-                Get the best UI/UX designs for your next project, We provide the
-                best in class deisgns that take your next projects to greater
-                heights. We make sure the deisgns are both eye candy and
-                developer friendly at the same time.
-              </div>
-              <div className={s.image}>
-                <Image
-                  src="/assets/web.svg"
-                  height={200}
-                  width={200}
-                  alt="ui"
-                />
-              </div>
-            </div>
-            <div className={s.options}>
-              <div className={s.option}>
-                Website Designs
-                <div className={s.subh}>
-                  The best website designs, that take your customer experience
-                  to next levels
-                </div>
-              </div>
-              <div className={s.option}>
-                App designs
-                <div className={s.subh}>
-                  The best App designs, that will surely increase your app
-                  downnloads
-                </div>
-              </div>
-            </div>
-            <div
-              className={s.getService}
-              onClick={() => {
-                ShowService("flex");
-              }}
-            >
-              Get the service
-            </div>
-          </div>
-          <div className={s.card}>
-            <div className={s.cardHead}>ORM management</div>
+        <div className={s.card}>
+            <div className={s.cardHead}>Online Reputaion Management (ORM)</div>
             <div className={s.content}>
               <div className={s.text}>
                 In the modern world, customers research your company online
@@ -240,7 +197,65 @@ export default function Services() {
             </div>
           </div>
           <div className={s.card}>
-            <div className={s.cardHead}>SEO</div>
+            <div className={s.cardHead}>Web Development</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                A website must be carefully thought out in order to be
+                effective. We begin by designing your user experiences and user
+                journeys for your website based on a thorough understanding of
+                your target audience. Then, in order to improve the experience,
+                we analyse the websites of your rivals.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/wevdev.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+          <div className={s.card}>
+            <div className={s.cardHead}>Android App Development</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                A website must be carefully thought out in order to be
+                effective. We begin by designing your user experiences and user
+                journeys for your website based on a thorough understanding of
+                your target audience. Then, in order to improve the experience,
+                we analyse the websites of your rivals.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/appdev.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+          <div className={s.card}>
+            <div className={s.cardHead}>Search Engine Optimisation</div>
             <div className={s.content}>
               <div className={s.text}>
                 Any successful SEO strategy is built on thorough keyword
@@ -272,18 +287,64 @@ export default function Services() {
             </div>
           </div>
           <div className={s.card}>
-            <div className={s.cardHead}>Web and App Development</div>
+            <div className={s.cardHead}>Digital Marketing Strategy</div>
             <div className={s.content}>
               <div className={s.text}>
-                A website must be carefully thought out in order to be
-                effective. We begin by designing your user experiences and user
-                journeys for your website based on a thorough understanding of
-                your target audience. Then, in order to improve the experience,
-                we analyse the websites of your rivals.
+                Get the best UI/UX designs for your next project, We provide the
+                best in class deisgns that take your next projects to greater
+                heights. We make sure the deisgns are both eye candy and
+                developer friendly at the same time.
               </div>
               <div className={s.image}>
                 <Image
-                  src="/assets/apps.svg"
+                  src="/assets/digital-marketing-strategy.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+            {/* <div className={s.options}>
+              <div className={s.option}>
+                Website Designs
+                <div className={s.subh}>
+                  The best website designs, that take your customer experience
+                  to next levels
+                </div>
+              </div>
+              <div className={s.option}>
+                App designs
+                <div className={s.subh}>
+                  The best App designs, that will surely increase your app
+                  downloads
+                </div>
+              </div>
+            </div> */}
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+          <div className={s.card}>
+            <div className={s.cardHead}>Social Media Marketing</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                Any successful SEO strategy is built on thorough keyword
+                research. We can find short-tail and long-tail keywords that
+                will send the highest-quality, money-making traffic by learning
+                what your clients are searching for. We also keep an eye on your
+                rivals, analysing their strategy and methods to inform your own.
+                To ensure transparent supervision and coordination across your
+                SEO and PPC efforts, everything is recorded in a single
+                document.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/social-media-marketing.svg"
                   height={200}
                   width={200}
                   alt="ui"
@@ -301,6 +362,103 @@ export default function Services() {
             </div>
           </div>
           <div className={s.card}>
+            <div className={s.cardHead}>Social Media Management</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                Any successful SEO strategy is built on thorough keyword
+                research. We can find short-tail and long-tail keywords that
+                will send the highest-quality, money-making traffic by learning
+                what your clients are searching for. We also keep an eye on your
+                rivals, analysing their strategy and methods to inform your own.
+                To ensure transparent supervision and coordination across your
+                SEO and PPC efforts, everything is recorded in a single
+                document.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/social-media-management.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+          <div className={s.card}>
+            <div className={s.cardHead}>Google Reviews</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                Any successful SEO strategy is built on thorough keyword
+                research. We can find short-tail and long-tail keywords that
+                will send the highest-quality, money-making traffic by learning
+                what your clients are searching for. We also keep an eye on your
+                rivals, analysing their strategy and methods to inform your own.
+                To ensure transparent supervision and coordination across your
+                SEO and PPC efforts, everything is recorded in a single
+                document.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/google-review.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+          <div className={s.card}>
+            <div className={s.cardHead}>Copywriting</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                Any successful SEO strategy is built on thorough keyword
+                research. We can find short-tail and long-tail keywords that
+                will send the highest-quality, money-making traffic by learning
+                what your clients are searching for. We also keep an eye on your
+                rivals, analysing their strategy and methods to inform your own.
+                To ensure transparent supervision and coordination across your
+                SEO and PPC efforts, everything is recorded in a single
+                document.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/copywriting.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+          
+          <div className={s.card}>
             <div className={s.cardHead}>Content Writing</div>
             <div className={s.content}>
               <div className={s.text}>
@@ -313,7 +471,73 @@ export default function Services() {
               </div>
               <div className={s.image}>
                 <Image
-                  src="/assets/rep.svg"
+                  src="/assets/content-writing.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+
+          <div className={s.card}>
+            <div className={s.cardHead}>Video Marketing</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                Any successful SEO strategy is built on thorough keyword
+                research. We can find short-tail and long-tail keywords that
+                will send the highest-quality, money-making traffic by learning
+                what your clients are searching for. We also keep an eye on your
+                rivals, analysing their strategy and methods to inform your own.
+                To ensure transparent supervision and coordination across your
+                SEO and PPC efforts, everything is recorded in a single
+                document.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/video-marketing.svg"
+                  height={200}
+                  width={200}
+                  alt="ui"
+                />
+              </div>
+            </div>
+
+            <div
+              className={s.getService}
+              onClick={() => {
+                ShowService("flex");
+              }}
+            >
+              Get the service
+            </div>
+          </div>
+
+          <div className={s.card}>
+            <div className={s.cardHead}>PPC Adds</div>
+            <div className={s.content}>
+              <div className={s.text}>
+                Any successful SEO strategy is built on thorough keyword
+                research. We can find short-tail and long-tail keywords that
+                will send the highest-quality, money-making traffic by learning
+                what your clients are searching for. We also keep an eye on your
+                rivals, analysing their strategy and methods to inform your own.
+                To ensure transparent supervision and coordination across your
+                SEO and PPC efforts, everything is recorded in a single
+                document.
+              </div>
+              <div className={s.image}>
+                <Image
+                  src="/assets/ppc.svg"
                   height={200}
                   width={200}
                   alt="ui"
