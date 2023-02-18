@@ -163,7 +163,7 @@ export default function Services() {
           </div>
         </nav>
         <div id={s.ser}>
-          Services we offer
+          Services We Offer
           <div id={s.sub}>Browse our services</div>
         </div>
         <div id={s.cards}>
@@ -175,7 +175,7 @@ export default function Services() {
                 before deciding whether or not to use your services. We work to
                 establish a favourable online reputation for your brand as we
                 are one of the most reputable Online Reputation Management (ORM)
-                companies in India. Get the service
+                companies in India.
               </div>
               <div className={s.image}>
                 <Image
@@ -255,7 +255,7 @@ export default function Services() {
             </div>
           </div>
           <div className={s.card}>
-            <div className={s.cardHead}>Search Engine Optimisation</div>
+            <div className={s.cardHead}>Search Engine Optimisation (SEO)</div>
             <div className={s.content}>
               <div className={s.text}>
                 Any successful SEO strategy is built on thorough keyword
@@ -330,7 +330,7 @@ export default function Services() {
             </div>
           </div>
           <div className={s.card}>
-            <div className={s.cardHead}>Social Media Marketing</div>
+            <div className={s.cardHead}>Social Media Marketing (SMM)</div>
             <div className={s.content}>
               <div className={s.text}>
                 Any successful SEO strategy is built on thorough keyword
