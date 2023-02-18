@@ -81,19 +81,19 @@ export default function ContactUs(){
                     <div className={s.formEle}>
                         Name
                     </div>
-                    <input type="text" name="name" id="" className={s.inp} placeholder='enter your name' required />
+                    <input type="text" name="name" id="" className={s.inp} placeholder='Enter your name' required />
                 </label>
                 <label htmlFor="Email">
                     <div className={s.formEle}>
                         Email
                     </div>
-                    <input type="email" name="email" id="" className={s.inp} placeholder='enter your email' required />
+                    <input type="email" name="email" id="" className={s.inp} placeholder='Enter your email' required />
                 </label>
                 <label htmlFor="Message">
                     <div className={s.formEle}>
                         Your Message
                     </div>
-                    <textarea type="text" name="message" id="" className={s.inp} placeholder='enter your message' required />
+                    <textarea type="text" name="message" id="" className={s.inp} placeholder='Enter your message' required />
                 </label> <br />
                 <input type="hidden" name="_subject" value="Grid Reputation Submission!"></input>
                 <input type="hidden" name="_captcha" value="false"></input>
