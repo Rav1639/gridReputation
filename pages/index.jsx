@@ -28,6 +28,7 @@ export default function Home() {
   return (
     <div className={s.container}>
       <Head>
+          <meta name="facebook-domain-verification" content="chxhalkrx93pqwkmgqezyka6d48fj3" />
         <title>Grid Reputation</title>
         <meta
           name="description"
