@@ -149,6 +149,9 @@ export default function AboutUs() {
                   </Link>
                 </div>
                 <div id="socials">
+                  <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
+                    <Image src="/assets/wpp.svg" width={35} height={35} />
+                  </Link>
                   <Link href="https://www.linkedin.com/company/grid-reputation/">
                     <Image src="/assets/linkedin.png" width={35} height={35} />
                   </Link>
