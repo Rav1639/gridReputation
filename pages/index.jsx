@@ -142,11 +142,11 @@ export default function Home() {
               <div id={s.whoBack}>
                 <div className={s.us} id={s.adj}>
                   <div className={s.te} data-aos="fade-right">
-                    <span> The best SEO practises</span> <br /> You
+                    <span> The Best SEO Practises</span> <br /> You
                             will get a customised mix of on-page and off-page SEO
                     that will take your company to new heights!
                     <br /> <br />
-                    <span>Remarkable digital marketing</span> <br /> Get social
+                    <span>Remarkable Digital Marketing</span> <br /> Get social
                     media, guest blogging, email marketing, and other tactics to
                     work for you rather than against you!
             
@@ -171,11 +171,11 @@ export default function Home() {
                     />
                   </div>
                   <div className={s.te} data-aos="fade-left">
-                    <span>Real time stats and ORM</span>
+                    <span>Real Time Stats and ORM</span>
                     <br /> You will be able to keep tabs on how customers view
                     your business every single day with the help of our online
                     reputation management solution. <br /> <br />
-                    <span>Amazing websites</span>
+                    <span>Amazing Websites</span>
                     <br /> Our staff is always ready to come to your rescue when
                     you become weary of the dated styles, layouts, and features.
                   </div>
@@ -262,7 +262,7 @@ export default function Home() {
                     </div>
                     <div className={s.serviceCardText}>
                       <div className={s.serviceCardHeading}>
-                        SEO Building Tools
+                        Search Engine Optimization
                       </div>
                       <div className={s.serviceCardDetails}>
                         SEO, that makes you known to the world!
