@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className={s.container}>
       <Head>
-  
+ 
          
           <meta name="facebook-domain-verification" content="chxhalkrx93pqwkmgqezyka6d48fj3" />
             <meta name="p:domain_verify" content="8e0fb17c5e33669eb4bbd1bce3e42692"/>
@@ -40,6 +40,19 @@ export default function Home() {
         <link rel="icon" href="/grLogo.ico"/>
 
       </Head>
+
+<!-- Google tag (gtag.js) -->
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-3LSJVKTGH1"/>
+<Script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3LSJVKTGH1');
+</Script>
+
+
+
       {loading ? (
         <div id="loader">
           <Image src="/GR.svg" height={500} width={500} id="aniIm" />
