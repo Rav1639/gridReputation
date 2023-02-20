@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from 'next/script'
 import Image from "next/image";
 import s from "../styles/Home.module.css";
 import Marquee from "react-fast-marquee";
