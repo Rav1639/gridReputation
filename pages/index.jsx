@@ -378,6 +378,10 @@ export default function Home() {
                     support@gridreputation.com
                   </Link>
                 </div>
+                <div id="policyterms">
+                  <Link href="/privacypolicy"><div class ="policy">Privacy Policy</div></Link>
+                  <Link href="/terms"><div class ="terms">Terms Of Service</div></Link>
+                </div>
                 <div id="socials">
                   <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
                     <Image src="/assets/wpp.svg" width={35} height={35} />
