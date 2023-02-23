@@ -83,7 +83,7 @@ export default function AboutUs() {
           </div>
         </nav>
 
-        <div id={s.head}>About us</div>
+        <div id={s.head}>About Us</div>
         <div id={s.abtContent}>
           <div className={s.abtCard}>
             <div className={s.abtText}>
@@ -150,7 +150,7 @@ export default function AboutUs() {
                 </div>
                 <div id="policyterms">
                   <Link href="/privacypolicy"><div class ="policy">Privacy Policy</div></Link>
-                  <Link href="/terms"><div class ="terms">Terms Of Service</div></Link>
+                  <Link href="/terms"><div class ="terms">Terms of Service</div></Link>
                 </div>
                 <div id="socials">
                   <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
