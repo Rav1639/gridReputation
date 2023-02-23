@@ -136,6 +136,21 @@ footer{
   align-items: center;
   gap:0.5rem;
 }
+#policyterms{
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: white;
+  padding: 0.5rem 0;
+}
+.policy{
+  border-right: 0.0625rem solid white ;
+  padding: 0 0.5rem;
+  display : inline;
+}
+.terms{
+  padding: 0 0.5rem 0 0.7rem;
+  display : inline;
+}
 /* Thank you */
 #thankBack{
   height: 100vh;
