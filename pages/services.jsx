@@ -553,7 +553,7 @@ export default function Services() {
               </div>
               <div id="policyterms">
                   <Link href="/privacypolicy"><div class ="policy">Privacy Policy</div></Link>
-                  <Link href="/terms"><div class ="terms">Terms Of Service</div></Link>
+                  <Link href="/terms"><div class ="terms">Terms of Service</div></Link>
                 </div>
               <div id="socials">
                 <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
