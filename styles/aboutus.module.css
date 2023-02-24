@@ -39,6 +39,11 @@
         max-width: unset;
         text-align: center;
     }
+    .newtext{
+        max-width: unset;
+        text-align: center;
+        font-size: 1rem;
+    }
     #adj{
         flex-direction: column;
     }
@@ -53,4 +58,20 @@
         align-items: center;
         justify-content: center;
     }
+    .newtext span{
+        color: var(--themeColor);
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 0.8;
+    }
+}
+#abtCont{
+    line-height: 2;
+    padding:4rem;
+    color: white;
+}
+.newtext span{
+    color: var(--themeColor);
+    font-weight: 700;
+    font-size: 2.5rem;
 }
