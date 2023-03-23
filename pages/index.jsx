@@ -30,12 +30,12 @@ export default function Home() {
     <div className={s.container}>
       <Head>
  
-          <meta name="title" content="Boost Your Business with the Power of GRID Reputation">
-          <meta name="description" content="Elevate your online presence with the power of GRID Reputation. Learn proven strategies to stand out and succeed today.">
-          <meta name="keywords" content="Web Development, Android App Development, Search Engine Optimisation, Digital Marketing Strategy">
-          <meta name="robots" content="index, follow">
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-          <meta name="language" content="English">
+          <meta name="title" content="Boost Your Business with the Power of GRID Reputation" />
+          <meta name="description" content="Elevate your online presence with the power of GRID Reputation. Learn proven strategies to stand out and succeed today." />
+          <meta name="keywords" content="Web Development, Android App Development, Search Engine Optimisation, Digital Marketing Strategy" />
+          <meta name="robots" content="index, follow" />
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="language" content="English" />
   
   
           <meta name="facebook-domain-verification" content="chxhalkrx93pqwkmgqezyka6d48fj3" />
