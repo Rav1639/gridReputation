@@ -30,7 +30,12 @@
     font-weight: 700;
     font-size: 1.5rem;
 }
+
 @media screen and (max-width:900px) {
+    #abtCont{
+        padding-inline: 2rem;
+        line-height: 2.2;
+    }
     .abtCard{
         flex-direction: column-reverse;
     
@@ -38,11 +43,11 @@
     .abtText{
         max-width: unset;
         text-align: center;
+        font-size: 1.8rem;
     }
     .newtext{
         max-width: unset;
         text-align: center;
-        font-size: 1rem;
     }
     #adj{
         flex-direction: column;
@@ -67,11 +72,11 @@
 }
 #abtCont{
     line-height: 2;
-    padding:4rem;
+    padding: 1rem 4rem 2rem;
     color: white;
 }
 .newtext span{
     color: var(--themeColor);
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.5rem
 }
