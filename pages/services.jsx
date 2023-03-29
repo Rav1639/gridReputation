@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import s from "../styles/services.module.css";
 import Image from "next/image";
+import "aos/dist/aos.css";
 import Link from "next/link";
 export default function Services() {
   const [height, setHeight] = useState("0vh");
@@ -33,12 +34,15 @@ export default function Services() {
             >
               <div className="mobele">Home</div>
             </Link>
+            <Link href="/blogs-home">
+              <div className="mobele">Blogs</div>
+            </Link>
             <Link href="/services">
               <div className="mobele">Services</div>
             </Link>
             <Link href="/aboutus">
-                <div className="mobele">About Us</div>
-              </Link>
+              <div className="mobele">About Us</div>
+            </Link>
             <Link href="/contactus">
               <div className="mobele">Contact Us</div>
             </Link>
@@ -124,8 +128,8 @@ export default function Services() {
               ></input>
               <input type="hidden" name="_captcha" value="false"></input>
               <input type="hidden" name="_template" value="table"></input>
-              <input type="hidden" name="_next" value="https://gridreputation.com/thankyou"></input>              
-               <button type="submit" id={s.submit}>
+              <input type="hidden" name="_next" value="https://gridreputation.com/thankyou"></input>
+              <button type="submit" id={s.submit}>
                 Submit
               </button>
             </form>
@@ -134,11 +138,16 @@ export default function Services() {
 
         <nav>
           <div id="navLeft">
-            <Image src="/GR.svg" height={70} width={90} />
+            <Link href="/">
+              <Image src="/GR.svg" height={70} width={90} />
+            </Link>
           </div>
           <div id="navRight">
             <Link href="/">
               <div className="navEle">Home</div>
+            </Link>
+            <Link href="/blogs-home">
+              <div className="mobele">Blogs</div>
             </Link>
             <Link href="/services">
               <div className="navEle">Services</div>
@@ -167,7 +176,7 @@ export default function Services() {
           <div id={s.sub}>Browse our services</div>
         </div>
         <div id={s.cards}>
-        <div className={s.card}>
+          <div className={s.card} data-aos="flip-left">
             <div className={s.cardHead}>Online Reputaion Management (ORM)</div>
             <div className={s.content}>
               <div className={s.text}>
@@ -196,7 +205,7 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-right">
             <div className={s.cardHead}>Web Development</div>
             <div className={s.content}>
               <div className={s.text}>
@@ -225,14 +234,14 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-left">
             <div className={s.cardHead}>Android App Development</div>
             <div className={s.content}>
               <div className={s.text}>
-                Clients from all across the world choose Grid Reputation 
-                as their first choice. We are deeply committed to creating 
-                extremely captivating apps that carefully adhere to the business 
-                needs and serving a wide range of projects with the utmost client 
+                Clients from all across the world choose Grid Reputation
+                as their first choice. We are deeply committed to creating
+                extremely captivating apps that carefully adhere to the business
+                needs and serving a wide range of projects with the utmost client
                 satisfaction in mind.
               </div>
               <div className={s.image}>
@@ -254,7 +263,7 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-right">
             <div className={s.cardHead}>Search Engine Optimisation (SEO)</div>
             <div className={s.content}>
               <div className={s.text}>
@@ -286,14 +295,14 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-left">
             <div className={s.cardHead}>Digital Marketing Strategy</div>
             <div className={s.content}>
               <div className={s.text}>
-                An organization's strategic marketing goals, such as brand 
-                building or new company development, can be met by adopting 
-                digital marketing tools and tactics. A comprehensive, strategic 
-                marketing plan that uses digital strategies frequently includes 
+                An organization's strategic marketing goals, such as brand
+                building or new company development, can be met by adopting
+                digital marketing tools and tactics. A comprehensive, strategic
+                marketing plan that uses digital strategies frequently includes
                 a digital marketing strategy.
               </div>
               <div className={s.image}>
@@ -330,14 +339,14 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-right">
             <div className={s.cardHead}>Social Media Marketing (SMM)</div>
             <div className={s.content}>
               <div className={s.text}>
-                To engage your brand's target market and interact with customers, 
-                we offer A-Z social media marketing services. We pledge to establish 
-                your brand as the most trustworthy one among consumers and to generate 
-                more high-quality leads. We implement a successful, data-driven approach 
+                To engage your brand's target market and interact with customers,
+                we offer A-Z social media marketing services. We pledge to establish
+                your brand as the most trustworthy one among consumers and to generate
+                more high-quality leads. We implement a successful, data-driven approach
                 for your brand every day, scale outcomes often.
               </div>
               <div className={s.image}>
@@ -359,14 +368,14 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-left">
             <div className={s.cardHead}>Social Media Management</div>
             <div className={s.content}>
               <div className={s.text}>
-                Our team creates a vibrant community for your brand on all social 
-                media platforms. We provide a dedicated community manager to respond 
-                quickly to your consumers' questions and increase the credibility of your brand. 
-                We are able to pinpoint your precise requirements, create a strategy, and carry 
+                Our team creates a vibrant community for your brand on all social
+                media platforms. We provide a dedicated community manager to respond
+                quickly to your consumers' questions and increase the credibility of your brand.
+                We are able to pinpoint your precise requirements, create a strategy, and carry
                 out the required tasks for long-term social media success.
               </div>
               <div className={s.image}>
@@ -388,14 +397,14 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-right">
             <div className={s.cardHead}>Google Reviews</div>
             <div className={s.content}>
               <div className={s.text}>
-                One of the best aspects of our reviews is that you may 
-                decide how many to buy, giving you a lot of flexibility. Consider 
-                the importance of your reputation before deciding to buy Google reviews. 
-                The most important thing to remember is that content is king, which means that 
+                One of the best aspects of our reviews is that you may
+                decide how many to buy, giving you a lot of flexibility. Consider
+                the importance of your reputation before deciding to buy Google reviews.
+                The most important thing to remember is that content is king, which means that
                 internet reviews of your brand are extremely important.
               </div>
               <div className={s.image}>
@@ -417,14 +426,14 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-left">
             <div className={s.cardHead}>Copywriting</div>
             <div className={s.content}>
               <div className={s.text}>
-                Our content marketing specialists are talented writers who also know 
-                how to write in a way that benefits both humans and search engines. We may 
-                create compelling copy for use on your website, SEO-friendly product descriptions 
-                to help them rank, powerful and succinct email campaigns, or blog entries that increase 
+                Our content marketing specialists are talented writers who also know
+                how to write in a way that benefits both humans and search engines. We may
+                create compelling copy for use on your website, SEO-friendly product descriptions
+                to help them rank, powerful and succinct email campaigns, or blog entries that increase
                 your exposure and authority as a subject matter expert.
               </div>
               <div className={s.image}>
@@ -446,15 +455,15 @@ export default function Services() {
               Get the service
             </div>
           </div>
-          
-          <div className={s.card}>
+
+          <div className={s.card} data-aos="flip-right">
             <div className={s.cardHead}>Content Writing</div>
             <div className={s.content}>
               <div className={s.text}>
-                At Grid Reputation, we are aware of the subtleties involved 
-                in producing marketing material that enables clients to effectively 
-                communicate with their target audience. Since we continually strive to 
-                offer the greatest content writing services worldwide, we produce content 
+                At Grid Reputation, we are aware of the subtleties involved
+                in producing marketing material that enables clients to effectively
+                communicate with their target audience. Since we continually strive to
+                offer the greatest content writing services worldwide, we produce content
                 that fascinates both our clients and their customers.
               </div>
               <div className={s.image}>
@@ -477,15 +486,15 @@ export default function Services() {
             </div>
           </div>
 
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-left">
             <div className={s.cardHead}>Video Marketing</div>
             <div className={s.content}>
               <div className={s.text}>
-                You're making a wise decision if you want to use video in your 
-                marketing strategy, and your clients will appreciate it. Grid Reputation 
-                has a history of producing interesting movies for various video marketing 
-                efforts, including social media videos, website videos, and video advertising. 
-                We are the ideal video marketing business if you want your videos to be powerful 
+                You're making a wise decision if you want to use video in your
+                marketing strategy, and your clients will appreciate it. Grid Reputation
+                has a history of producing interesting movies for various video marketing
+                efforts, including social media videos, website videos, and video advertising.
+                We are the ideal video marketing business if you want your videos to be powerful
                 and hold viewers' attention.
               </div>
               <div className={s.image}>
@@ -508,13 +517,13 @@ export default function Services() {
             </div>
           </div>
 
-          <div className={s.card}>
+          <div className={s.card} data-aos="flip-right">
             <div className={s.cardHead}>PPC Ads</div>
             <div className={s.content}>
               <div className={s.text}>
-                Many businesses are searching for quick, efficient ways to position 
-                their brands in front of clients who are likely to convert well because the 
-                landscape of digital marketing is changing. Boost your online presence and see 
+                Many businesses are searching for quick, efficient ways to position
+                their brands in front of clients who are likely to convert well because the
+                landscape of digital marketing is changing. Boost your online presence and see
                 results right now with Grid Reputation's PPC Advertising services.
               </div>
               <div className={s.image}>
@@ -552,13 +561,13 @@ export default function Services() {
                 </Link>
               </div>
               <div id="policyterms">
-                  <Link href="/privacypolicy"><div class ="policy">Privacy Policy</div></Link>
-                  <Link href="/terms"><div class ="terms">Terms of Service</div></Link>
-                </div>
+                <Link href="/privacypolicy"><div class="policy">Privacy Policy</div></Link>
+                <Link href="/terms"><div class="terms">Terms of Service</div></Link>
+              </div>
               <div id="socials">
                 <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
-                    <Image src="/assets/wpp.svg" width={35} height={35} />
-                  </Link>
+                  <Image src="/assets/wpp.svg" width={35} height={35} />
+                </Link>
                 <Link href="https://www.linkedin.com/company/grid-reputation/">
                   <Image src="/assets/linkedin.png" width={35} height={35} />
                 </Link>
