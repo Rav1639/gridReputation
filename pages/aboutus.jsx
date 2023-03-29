@@ -33,38 +33,46 @@ export default function AboutUs() {
             >
               <div className="mobele">Home</div>
             </Link>
+            <Link href="/blogs-home">
+              <div className="mobele">Blogs</div>
+            </Link>
             <Link href="/services">
               <div className="mobele">Services</div>
             </Link>
             <Link href="/aboutus">
-                <div className="mobele"  onClick={() => {
-              setHeight("0vh");
-              setShown("none");
-            }}>About Us</div>
-              </Link>
+              <div className="mobele" onClick={() => {
+                setHeight("0vh");
+                setShown("none");
+              }}>About Us</div>
+            </Link>
             <Link href="/contactus">
               <div className="mobele">Contact Us</div>
             </Link>
-            
+
           </div>
         </div>
         <nav>
           <div id="navLeft">
-            <Image src="/GR.svg" height={70} width={90} />
+            <Link href="/">
+              <Image src="/GR.svg" height={70} width={90} />
+            </Link>
           </div>
           <div id="navRight">
             <Link href="/">
               <div className="navEle">Home</div>
             </Link>
+            <Link href="/blogs-home">
+              <div className="mobele">Blogs</div>
+            </Link>
             <Link href="/services">
               <div className="navEle">Services</div>
             </Link>
-            
+
             <Link href="/aboutus">
               <div className="navEle" onClick={() => {
-              setHeight("0vh");
-              setShown("none");
-            }}>About Us</div>
+                setHeight("0vh");
+                setShown("none");
+              }}>About Us</div>
             </Link>
             <Link href="/contactus">
               <div className="navEle" id="contactUs">
@@ -89,7 +97,7 @@ export default function AboutUs() {
             <div className={s.abtText}>
               Since 2021, when we began as a team of three in <span>Kolkata</span>, Grid
               Reputation has existed solely online. We are a full-service
-            <span>  digital and commerce agency</span> today, and we have a solid track
+              <span>  digital and commerce agency</span> today, and we have a solid track
               record of developing integrated, transformative strategies across
               the whole digital landscape. The same people who founded us are
               still in charge of us, and we take pride in our independence. It
@@ -110,7 +118,7 @@ export default function AboutUs() {
           </div>
 
           <div className={s.abtCard} id={s.adj}>
-          <div className={s.abtImage}>
+            <div className={s.abtImage}>
               <Image
                 src="/assets/abt2.svg" className={s.img}
                 height={400}
@@ -131,48 +139,48 @@ export default function AboutUs() {
               vision. People who are aware that in order to stand out, you must
               be unique.
             </div>
-          
+
           </div>
         </div>
         <footer>
-            <div id="footerMain">
-              <div id="footerLeft">
-                <Image src="/GR.svg" width={120} height={120} />
-                <div id="footName">Grid Reputation.</div>
-                <div id="footSub">A digital marketing agency</div>
+          <div id="footerMain">
+            <div id="footerLeft">
+              <Image src="/GR.svg" width={120} height={120} />
+              <div id="footName">Grid Reputation.</div>
+              <div id="footSub">A digital marketing agency</div>
+            </div>
+            <div id="footerRight">
+              <div id="footerRightHead">Grid Reputation</div>
+              <div id="footEm">
+                <Link href="mailto:support@gridreputation.com">
+                  support@gridreputation.com
+                </Link>
               </div>
-              <div id="footerRight">
-                <div id="footerRightHead">Grid Reputation</div>
-                <div id="footEm">
-                  <Link href="mailto:support@gridreputation.com">
-                    support@gridreputation.com
-                  </Link>
-                </div>
-                <div id="policyterms">
-                  <Link href="/privacypolicy"><div class ="policy">Privacy Policy</div></Link>
-                  <Link href="/terms"><div class ="terms">Terms of Service</div></Link>
-                </div>
-                <div id="socials">
-                  <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
-                    <Image src="/assets/wpp.svg" width={35} height={35} />
-                  </Link>
-                  <Link href="https://www.linkedin.com/company/grid-reputation/">
-                    <Image src="/assets/linkedin.png" width={35} height={35} />
-                  </Link>
-                  <Link href="https://www.facebook.com/profile.php?id=100087967937908&mibextid=ZbWKwL">
-                    <Image src="/assets/fb.png" width={35} height={35} />
-                  </Link>
-                  <Link href="https://twitter.com/GridReputation">
-                    <Image src="/assets/twit.png" width={35} height={35} />
-                  </Link>
-                  <Link href="https://www.instagram.com/gridreputation/">
-                    <Image src="/assets/insta.png" width={35} height={35} />
-                  </Link>
-                </div>
+              <div id="policyterms">
+                <Link href="/privacypolicy"><div class="policy">Privacy Policy</div></Link>
+                <Link href="/terms"><div class="terms">Terms of Service</div></Link>
+              </div>
+              <div id="socials">
+                <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
+                  <Image src="/assets/wpp.svg" width={35} height={35} />
+                </Link>
+                <Link href="https://www.linkedin.com/company/grid-reputation/">
+                  <Image src="/assets/linkedin.png" width={35} height={35} />
+                </Link>
+                <Link href="https://www.facebook.com/profile.php?id=100087967937908&mibextid=ZbWKwL">
+                  <Image src="/assets/fb.png" width={35} height={35} />
+                </Link>
+                <Link href="https://twitter.com/GridReputation">
+                  <Image src="/assets/twit.png" width={35} height={35} />
+                </Link>
+                <Link href="https://www.instagram.com/gridreputation/">
+                  <Image src="/assets/insta.png" width={35} height={35} />
+                </Link>
               </div>
             </div>
-            <div id="footerBottom">&copy; Grid Reputation 2021-2023</div>
-          </footer>
+          </div>
+          <div id="footerBottom">&copy; Grid Reputation 2021-2023</div>
+        </footer>
       </main>
     </div>
   );
