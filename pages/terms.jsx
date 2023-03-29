@@ -33,6 +33,9 @@ export default function AboutUs() {
                         >
                             <div className="mobele">Home</div>
                         </Link>
+                        <Link href="/blogs-home">
+                            <div className="mobele">Blogs</div>
+                        </Link>
                         <Link href="/services">
                             <div className="mobele">Services</div>
                         </Link>
@@ -50,11 +53,16 @@ export default function AboutUs() {
                 </div>
                 <nav>
                     <div id="navLeft">
-                        <Image src="/GR.svg" height={70} width={90} />
+                        <Link href="/">
+                            <Image src="/GR.svg" height={70} width={90} />
+                        </Link>
                     </div>
                     <div id="navRight">
                         <Link href="/">
                             <div className="navEle">Home</div>
+                        </Link>
+                        <Link href="/blogs-home">
+                            <div className="mobele">Blogs</div>
                         </Link>
                         <Link href="/services">
                             <div className="navEle">Services</div>
