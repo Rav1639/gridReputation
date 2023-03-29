@@ -29,24 +29,20 @@ export default function Home() {
   return (
     <div className={s.container}>
       <Head>
- 
-          <meta name="title" content="Boost Your Business with the Power of GRID Reputation" />
-          <meta name="description" content="Elevate your online presence with the power of GRID Reputation. Learn proven strategies to stand out and succeed today." />
-          <meta name="keywords" content="Web Development, Android App Development, Search Engine Optimisation, Digital Marketing Strategy" />
-          <meta name="robots" content="index, follow" />
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="language" content="English" />
-  
-  
-          <meta name="facebook-domain-verification" content="chxhalkrx93pqwkmgqezyka6d48fj3" />
-            <meta name="p:domain_verify" content="8e0fb17c5e33669eb4bbd1bce3e42692"/>
+        <meta name="title" content="Boost Your Business with the Power of GRID Reputation" />
+        <meta name="description" content="Elevate your online presence with the power of GRID Reputation. Learn proven strategies to stand out and succeed today." />
+        <meta name="keywords" content="Web Development, Android App Development, Search Engine Optimisation, Digital Marketing Strategy" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="facebook-domain-verification" content="chxhalkrx93pqwkmgqezyka6d48fj3" />
+        <meta name="p:domain_verify" content="8e0fb17c5e33669eb4bbd1bce3e42692" />
         <title>Grid Reputation</title>
         <meta
           name="description"
           content="The official website for Grid Reputation organization"
         />
-        <link rel="icon" href="/grLogo.ico"/>
-
+        <link rel="icon" href="/grLogo.ico" />
       </Head>
 
 
@@ -84,6 +80,9 @@ export default function Home() {
               >
                 <div className="mobele">Home</div>
               </Link>
+              <Link href="/blogs-home">
+                <div className="mobele">Blogs</div>
+              </Link>
               <Link href="/services">
                 <div className="mobele">Services</div>
               </Link>
@@ -97,11 +96,16 @@ export default function Home() {
           </div>
           <nav>
             <div id="navLeft">
-              <Image src="/GR.svg" height={70} width={90} />
+              <Link href="/">
+                <Image src="/GR.svg" height={70} width={90} />
+              </Link>
             </div>
             <div id="navRight">
               <Link href="/">
                 <div className="navEle">Home</div>
+              </Link>
+              <Link href="/blogs-home">
+                <div className="mobele">Blogs</div>
               </Link>
               <Link href="/services">
                 <div className="navEle">Services</div>
@@ -162,13 +166,13 @@ export default function Home() {
                 <div className={s.us} id={s.adj}>
                   <div className={s.te} data-aos="fade-right">
                     <span> The Best SEO Practises</span> <br /> You
-                            will get a customised mix of on-page and off-page SEO
+                    will get a customised mix of on-page and off-page SEO
                     that will take your company to new heights!
                     <br /> <br />
                     <span>Remarkable Digital Marketing</span> <br /> Get social
                     media, guest blogging, email marketing, and other tactics to
                     work for you rather than against you!
-            
+
 
                   </div>
                   <div className={s.im} data-aos="fade-left">
@@ -386,8 +390,8 @@ export default function Home() {
                   </Link>
                 </div>
                 <div id="policyterms">
-                  <Link href="/privacypolicy"><div class ="policy">Privacy Policy</div></Link>
-                  <Link href="/terms"><div class ="terms">Terms of Service</div></Link>
+                  <Link href="/privacypolicy"><div class="policy">Privacy Policy</div></Link>
+                  <Link href="/terms"><div class="terms">Terms of Service</div></Link>
                 </div>
                 <div id="socials">
                   <Link href="https://wa.me/message/RVHR3F2ZW66LA1">
