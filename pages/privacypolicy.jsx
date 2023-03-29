@@ -33,6 +33,9 @@ export default function AboutUs() {
                         >
                             <div className="mobele">Home</div>
                         </Link>
+                        <Link href="/blogs-home">
+                            <div className="mobele">Blogs</div>
+                        </Link>
                         <Link href="/services">
                             <div className="mobele">Services</div>
                         </Link>
@@ -50,11 +53,16 @@ export default function AboutUs() {
                 </div>
                 <nav>
                     <div id="navLeft">
-                        <Image src="/GR.svg" height={70} width={90} />
+                        <Link href="/">
+                            <Image src="/GR.svg" height={70} width={90} />
+                        </Link>
                     </div>
                     <div id="navRight">
                         <Link href="/">
                             <div className="navEle">Home</div>
+                        </Link>
+                        <Link href="/blogs-home">
+                            <div className="mobele">Blogs</div>
                         </Link>
                         <Link href="/services">
                             <div className="navEle">Services</div>
@@ -85,6 +93,7 @@ export default function AboutUs() {
 
                 <div id={s.head}>Privacy Policy</div>
                 <div id={s.abtCont}>
+
                     <div className={s.newtext}>
                         <span>Section 1 - Do we use your information in any way?</span><br />
                         As part of the purchasing and selling process when you take any service from our site, we gather the personal data you provide to us, such as your name, address, and email address. We also automatically receive your computer's internet protocol (IP) address when you visit our site, which gives us knowledge about your operating system and browser. If appropriate, we may market to you via email by sending you information about our website and other updates.
