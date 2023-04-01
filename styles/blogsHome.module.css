@@ -142,6 +142,7 @@
 .buttonn:focus {
     color: var(--clr-accent-400);
     background-color: var(--clr-neutral-100);
+    font-weight: 700;
 }
 
 @media screen and (max-width:800px) {
