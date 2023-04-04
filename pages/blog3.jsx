@@ -16,6 +16,7 @@ export default function AboutUs() {
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
+        
                 <title>Small Business SEO!</title>
             </Head>
             <main>
