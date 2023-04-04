@@ -15,7 +15,7 @@ export default function AboutUs() {
                 <meta name="keywords" content="Small Business SEO, Affordable Small Business SEO, Small Business SEO Services" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                <meta name="language" content="English" />
+                <meta name="language" content="English"/>
         
                 <title>Small Business SEO!</title>
             </Head>
