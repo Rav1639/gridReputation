@@ -94,46 +94,67 @@ export default function AboutUs() {
         <div className={s.head}>Blogs</div>
 
         <div className={s.blog}>
-          <div className={s.card}>
+          <div className={s.card} data-aos="fade-up">
             <div className={s.cardcontent}>
               <h2 className={s.cardtitle}>What is an SEO?</h2>
               <p className={s.cardbody}>In today's digital world, it is important to have an online presence for your business. But just having a website is not enough. You need to make sure . . .</p>
               <a href="/blog1" className={s.buttonn}>Learn More</a>
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="fade-up">
             <div className={s.cardcontent}>
               <h2 className={s.cardtitle}>SEO Tips!</h2>
               <p className={s.cardbody}>SEO is an essential component of digital marketing. It helps to improve the visibility and ranking of your website on search engine results pages (SERPs), . . . </p>
               <a href="/blog2" className={s.buttonn}>Learn More</a>
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="fade-up">
             <div className={s.cardcontent}>
               <h2 className={s.cardtitle}>Small Business SEO!</h2>
               <p className={s.cardbody}>As a small business owner, you might think that investing in Search Engine Optimization (SEO) is an expense you can't afford. However . . .</p>
               <a href="/blog3" className={s.buttonn}>Learn More</a>
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="fade-up">
             <div className={s.cardcontent}>
               <h2 className={s.cardtitle}>SEO for Financial<br />Management</h2>
               <p className={s.cardbody}>With more and more customers relying on search engines to find financial products and services, financial institutions need to ensure . . .</p>
               <a href="/blog4" className={s.buttonn}>Learn More</a>
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="fade-up">
             <div className={s.cardcontent}>
               <h2 className={s.cardtitle}>Custom Web Dev!</h2>
               <p className={s.cardbody}>In today's digital era, having a strong online presence is essential for any business that wants to succeed. A website is a . . .</p>
               <a href="/blog5" className={s.buttonn}>Learn More</a>
             </div>
           </div>
-          <div className={s.card}>
+          <div className={s.card} data-aos="fade-up">
             <div className={s.cardcontent}>
               <h2 className={s.cardtitle}>php Web Dev!</h2>
               <p className={s.cardbody}>PHP is a popular server-side scripting language used for web development. With its open-source nature, versatility, and simplicity, PHP has  . . .</p>
               <a href="/blog6" className={s.buttonn}>Learn More</a>
+            </div>
+          </div>
+          <div className={s.card} data-aos="fade-up">
+            <div className={s.cardcontent}>
+              <h2 className={s.cardtitle}>Social Media <br/>Campaign Strategy!</h2>
+              <p className={s.cardbody}>In today's digital age, social media has become an integral part of our lives, and businesses have recognized the importance of incorporating social media . . .</p>
+              <a href="/blog7" className={s.buttonn}>Learn More</a>
+            </div>
+          </div>
+          <div className={s.card} data-aos="fade-up">
+            <div className={s.cardcontent}>
+              <h2 className={s.cardtitle}>Social Media <br/>Marketing Agency!</h2>
+              <p className={s.cardbody}>Looking for ways to increase your brand's online visibility? A social media marketing agency can help you reach your target audience and drive more sales . . .</p>
+              <a href="/blog8" className={s.buttonn}>Learn More</a>
+            </div>
+          </div>
+          <div className={s.card} data-aos="fade-up">
+            <div className={s.cardcontent}>
+              <h2 className={s.cardtitle}>Social Media <br/>Marketing Plan!</h2>
+              <p className={s.cardbody}>Are you looking to create a social media marketing plan that drives engagement, increases your brand awareness, and boosts sales? In today's . . .</p>
+              <a href="/blog9" className={s.buttonn}>Learn More</a>
             </div>
           </div>
         </div>
