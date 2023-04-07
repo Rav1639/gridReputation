@@ -1,5 +1,4 @@
-
-.head{
+.head {
     padding: 4rem;
     padding-left: 8rem;
     margin-top: 4rem;
@@ -12,7 +11,7 @@
 .blog {
     --clr-neutral-900: #151514;
     --clr-neutral-100: hsl(0, 0%, 100%);
-    --clr-accent-400:  #2499c0;
+    --clr-accent-400: #2499c0;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-inline: 5rem;
@@ -38,6 +37,7 @@
 .card:first-child {
     background-image: url(/blog-images/1.jpeg);
 }
+
 .card:nth-child(2) {
     background-image: url(/blog-images/2.jpeg);
 }
@@ -45,12 +45,15 @@
 .card:nth-child(3) {
     background-image: url(/blog-images/3.jpeg);
 }
+
 .card:nth-child(4) {
     background-image: url(/blog-images/4.jpeg);
 }
+
 .card:nth-child(5) {
     background-image: url(/blog-images/5.jpg);
 }
+
 .card:last-child {
     background-image: url(/blog-images/6.jpg);
     background-size: 100% 100%;
@@ -97,9 +100,17 @@
 
 @media (hover) {
 
+    .card:nth-child(4){
+        padding: 7.7rem 0 0;
+    }
+
     .cardcontent {
         transform: translateY(65%);
         transition: transform 500ms ease;
+    }
+
+    .card:nth-child(4) .cardcontent{
+        transform: translateY(58%);
     }
 
     .card:hover .cardcontent,
@@ -146,13 +157,15 @@
 }
 
 @media screen and (max-width:800px) {
-    .head{
+    .head {
         padding-left: 1.5rem;
     }
-    .blog{
+
+    .blog {
         padding-inline: 1rem;
-    } 
-    .cardtitle::after  {
+    }
+
+    .cardtitle::after {
         height: 2px;
     }
 }
