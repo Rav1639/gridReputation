@@ -54,9 +54,21 @@
     background-image: url(/blog-images/5.jpg);
 }
 
-.card:last-child {
+.card:nth-child(6) {
     background-image: url(/blog-images/6.jpg);
     background-size: 100% 100%;
+}
+
+.card:nth-child(7) {
+    background-image: url(/blog-images/2.jpeg);
+}
+
+.card:nth-child(8) {
+    background-image: url(/blog-images/2.jpeg);
+}
+
+.card:nth-child(9) {
+    background-image: url(/blog-images/2.jpeg);
 }
 
 .card:hover,
@@ -100,7 +112,7 @@
 
 @media (hover) {
 
-    .card:nth-child(4){
+    .card:nth-child(4), .card:nth-child(7), .card:nth-child(8), .card:nth-child(9){
         padding: 7.7rem 0 0;
     }
 
@@ -109,7 +121,7 @@
         transition: transform 500ms ease;
     }
 
-    .card:nth-child(4) .cardcontent{
+    .card:nth-child(4) .cardcontent, .card:nth-child(7) .cardcontent, .card:nth-child(8) .cardcontent, .card:nth-child(9) .cardcontent{
         transform: translateY(58%);
     }
 
