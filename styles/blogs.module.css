@@ -5,7 +5,7 @@
     font-size: 4rem;
     padding-bottom: 0.5rem;
     font-weight: 600;
-    color: #1163aa;
+    color: var(--themeColor);
 }
 .subHead{
     font-size: 1.7rem;
