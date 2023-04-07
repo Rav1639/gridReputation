@@ -60,15 +60,15 @@
 }
 
 .card:nth-child(7) {
-    background-image: url(/blog-images/2.jpeg);
+    background-image: url(/blog-images/7.jpg);
 }
 
 .card:nth-child(8) {
-    background-image: url(/blog-images/2.jpeg);
+    background-image: url(/blog-images/8.jpg);
 }
 
 .card:nth-child(9) {
-    background-image: url(/blog-images/2.jpeg);
+    background-image: url(/blog-images/9.jpg);
 }
 
 .card:hover,
