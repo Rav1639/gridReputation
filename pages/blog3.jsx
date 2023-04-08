@@ -10,14 +10,13 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="From Zero to Hero: Small Business SEO Guide for Beginners" />
                 <meta name="description" content="Don't let your small business get lost in the vastness of the internet. Our Small Business SEO solutions can help you stand out and reach your target audience" />
                 <meta name="keywords" content="Small Business SEO, Affordable Small Business SEO, Small Business SEO Services" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English"/>
         
-                <title>Small Business SEO!</title>
+                <title>From Zero to Hero: Small Business SEO Guide for Beginners</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
