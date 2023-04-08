@@ -10,13 +10,12 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="Power Up Your Online Business with PHP Web Solutions" />
                 <meta name="description" content="Looking for professional PHP web development services? Our expert team offers customized solutions to enhance your online presence and drive growth" />
                 <meta name="keywords" content="PHP Web Development Services, Best PHP web development services, Custom PHP web development services" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <title>PHP Web Dev!</title>
+                <title>Power Up Your Online Business with PHP Web Solutions</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
