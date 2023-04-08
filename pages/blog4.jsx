@@ -10,13 +10,12 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="Search Engine Optimization for Financial Marketing" />
                 <meta name="description" content="Want to take your financial marketing to the next level? Learn how to optimize your strategy for search engines with our comprehensive SEO guide!" />
                 <meta name="keywords" content="Search Engine Optimization for Financial Marketing,  SEO for Financial Advisors, Local SEO for Financial Advisors" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <title>SEO for F.M</title>
+                <title>Search Engine Optimization for Financial Marketing</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
