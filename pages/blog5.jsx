@@ -10,13 +10,12 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="Custom Web Development Services" />
                 <meta name="description" content="Looking for high-quality custom web development services? Look no further! Our team of experts can transform your website into a powerful online tool that drives results" />
                 <meta name="keywords" content="Custom Web Development Services, Affordable Custom Web Development Services, Custom Web Development Services Near Me" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <title>Custom Web Dev!</title>
+                <title>Custom Web Development Services</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
