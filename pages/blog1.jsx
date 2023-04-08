@@ -10,13 +10,12 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="Boost Your Website's Visibility: Top SEO Tips" />
                 <meta name="description" content="Improve your website's ranking with our expert SEO strategies. Learn how to increase visibility, drive traffic, and boost conversions. Get started today!" />
                 <meta name="keywords" content="What is an SEO, SEO meaning, SEO explained" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <title>What is an SEO?</title>
+                <title>Boost Your Website's Visibility: Top SEO Tips</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
