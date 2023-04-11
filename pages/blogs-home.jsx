@@ -157,6 +157,27 @@ export default function AboutUs() {
               <a href="/blog9" className={s.buttonn}>Learn More</a>
             </div>
           </div>
+          <div className={s.card} data-aos="fade-up">
+            <div className={s.cardcontent}>
+              <h2 className={s.cardtitle}>How to increase <br/>Google Reviews?</h2>
+              <p className={s.cardbody}>In today's digital age, online reviews have become an essential component for any business to establish its online reputation . . .</p>
+              <a href="/blog10" className={s.buttonn}>Learn More</a>
+            </div>
+          </div>
+          <div className={s.card} data-aos="fade-up">
+            <div className={s.cardcontent}>
+              <h2 className={s.cardtitle}>How to Remove Bad <br/> Reviews from Google?</h2>
+              <p className={s.cardbody}>In today's digital world, businesses of all sizes rely heavily on their online reputation to attract and retain customers. Online . . .</p>
+              <a href="/blog11" className={s.buttonn}>Learn More</a>
+            </div>
+          </div>
+          <div className={s.card} data-aos="fade-up">
+            <div className={s.cardcontent}>
+              <h2 className={s.cardtitle}>Buy Google Reviews!</h2>
+              <p className={s.cardbody}>If you own a business, you know that having a strong online presence is crucial. One way to boost your online reputation is by having . . .</p>
+              <a href="/blog12" className={s.buttonn}>Learn More</a>
+            </div>
+          </div>
         </div>
         <footer>
           <div id="footerMain">
