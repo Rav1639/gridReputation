@@ -15,6 +15,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-inline: 5rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -71,6 +72,18 @@
     background-image: url(/blog-images/9.jpg);
 }
 
+.card:nth-child(10) {
+    background-image: url(/blog-images/1.jpg);
+}
+
+.card:nth-child(11) {
+    background-image: url(/blog-images/2.jpg);
+}
+
+.card:nth-child(12) {
+    background-image: url(/blog-images/3.jpg);
+}
+
 .card:hover,
 .card:focus-within {
     transform: scale(1.05);
@@ -121,7 +134,7 @@
         transition: transform 500ms ease;
     }
 
-    .card:nth-child(4) .cardcontent, .card:nth-child(7) .cardcontent, .card:nth-child(8) .cardcontent, .card:nth-child(9) .cardcontent{
+    .card:nth-child(4) .cardcontent, .card:nth-child(7) .cardcontent, .card:nth-child(8) .cardcontent, .card:nth-child(9) .cardcontent, .card:nth-child(10) .cardcontent, .card:nth-child(11) .cardcontent{
         transform: translateY(58%);
     }
 
@@ -168,16 +181,21 @@
     font-weight: 700;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:780px) {
     .head {
         padding-left: 1.5rem;
     }
 
     .blog {
         padding-inline: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .cardtitle::after {
         height: 2px;
+    }
+    .buttonn {
+        padding: 0.25rem 0.4rem;
+        border-radius: 0.25rem;
     }
 }
