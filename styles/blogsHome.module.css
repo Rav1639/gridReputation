@@ -73,15 +73,15 @@
 }
 
 .card:nth-child(10) {
-    background-image: url(/blog-images/1.jpg);
+    background-image: url(/blog-images/10.jpeg);
 }
 
 .card:nth-child(11) {
-    background-image: url(/blog-images/2.jpg);
+    background-image: url(/blog-images/11.jpeg);
 }
 
 .card:nth-child(12) {
-    background-image: url(/blog-images/3.jpg);
+    background-image: url(/blog-images/12.jpg);
 }
 
 .card:hover,
