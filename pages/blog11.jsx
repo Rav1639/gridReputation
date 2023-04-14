@@ -10,7 +10,7 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="description" "Don't let negative reviews hurt your business. Learn how to remove bad Google reviews and improve your online reputation with our step-by-step guide." />
+                <meta name="description" content="Don't let negative reviews hurt your business. Learn how to remove bad Google reviews and improve your online reputation with our step-by-step guide." />
                 <meta name="keywords" content="How to delete bad reviews on Google, How to get rid of negative Google reviews, How to remove bad Google reviews" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
