@@ -10,13 +10,12 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="Boost Your Website's Visibility: Top SEO Tips" />
-                <meta name="description" content="Improve your website's ranking with our expert SEO strategies. Learn how to increase visibility, drive traffic, and boost conversions. Get started today!" />
-                <meta name="keywords" content="What is an SEO, SEO meaning, SEO explained" />
+                <meta name="description" content="Looking to elevate your game with Social Media Marketing Plan? Our comprehensive guide provides the tools, techniques, and insights to help you succeed" />
+                <meta name="keywords" content="Social Media Marketing Plan, social media marketing plan example, social media marketing plan pdf" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <title>Social Media Marketing Plan!</title>
+                <title>Get Ready to Transform Your Life With Social Media Marketing Plan</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
