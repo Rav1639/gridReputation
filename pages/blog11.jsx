@@ -10,13 +10,12 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="Boost Your Website's Visibility: Top SEO Tips" />
-                <meta name="description" content="Improve your website's ranking with our expert SEO strategies. Learn how to increase visibility, drive traffic, and boost conversions. Get started today!" />
-                <meta name="keywords" content="What is an SEO, SEO meaning, SEO explained" />
+                <meta name="description" "Don't let negative reviews hurt your business. Learn how to remove bad Google reviews and improve your online reputation with our step-by-step guide." />
+                <meta name="keywords" content="How to delete bad reviews on Google, How to get rid of negative Google reviews, How to remove bad Google reviews" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <title>How to Remove Bad Reviews from Google?</title>
+                <title>Fix Your Online Reputation: How to Remove Bad Reviews From Google?</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
