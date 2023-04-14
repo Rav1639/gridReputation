@@ -10,7 +10,7 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="description" content=""Improve your online credibility and attract more customers with our affordable and reliable Google reviews service. Buy Google reviews now and see the difference!" />
+                <meta name="description" content="Improve your online credibility and attract more customers with our affordable and reliable Google reviews service. Buy Google reviews now and see the difference!" />
                 <meta name="keywords" content="Buy positive Google reviews, Best site to buy Google reviews, Cheap Google reviews to buy" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
