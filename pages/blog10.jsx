@@ -10,13 +10,12 @@ export default function AboutUs() {
     return (
         <div>
             <Head>
-                <meta name="title" content="Boost Your Website's Visibility: Top SEO Tips" />
-                <meta name="description" content="Improve your website's ranking with our expert SEO strategies. Learn how to increase visibility, drive traffic, and boost conversions. Get started today!" />
-                <meta name="keywords" content="What is an SEO, SEO meaning, SEO explained" />
+                <meta name="description" content="Learn how to increase your Google reviews and improve your online reputation. Get more traffic, leads, and sales. Follow our tips and strategies now!" />
+                <meta name="keywords" content="How to get more Google reviews for business, Increase Google reviews for small business, Techniques to raise your Google reviews for business" />
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <title>How to increase Google Reviews?</title>
+                <title>Boost Your Online Presence: How to Increase Google Reviews</title>
             </Head>
             <main>
                 <div id="mobileNav" style={{ display: shown, height: height }}>
