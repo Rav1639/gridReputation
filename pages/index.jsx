@@ -37,10 +37,10 @@ export default function Home() {
         <meta name="language" content="English" />
         <meta name="facebook-domain-verification" content="chxhalkrx93pqwkmgqezyka6d48fj3" />
         <meta name="p:domain_verify" content="8e0fb17c5e33669eb4bbd1bce3e42692" />
-        <title>Grid Reputation</title>
+        <title>Grid Reputation: Website Design, SEO, App Development, Digital Marketing, Reputation Management | Kolkata Marketing Agency</title>
         <meta
           name="description"
-          content="The official website for Grid Reputation organization"
+          content="The official website for Grid Reputation: A Top Marketing Agency"
         />
         <link rel="icon" href="/grLogo.ico" />
       </Head>
