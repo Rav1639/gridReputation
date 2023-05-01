@@ -1,201 +1,221 @@
 .head {
-    padding: 4rem;
-    padding-left: 8rem;
-    margin-top: 4rem;
-    font-size: 4rem;
-    padding-bottom: 0;
-    font-weight: 600;
-    color: white;
+  padding: 4rem;
+  padding-left: 8rem;
+  margin-top: 4rem;
+  font-size: 4rem;
+  padding-bottom: 0;
+  font-weight: 600;
+  color: white;
 }
 
 .blog {
-    --clr-neutral-900: #151514;
-    --clr-neutral-100: hsl(0, 0%, 100%);
-    --clr-accent-400: #2499c0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-inline: 5rem;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 2rem;
-    line-height: 1.6;
+  --clr-neutral-900: #151514;
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-accent-400: #2499c0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-inline: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  line-height: 1.6;
 }
 
 .card {
-    color: whitesmoke;
-    background-size: cover;
-    padding: 10rem 0 0;
-    width: 35ch;
-    border-radius: 0.5rem;
-    overflow: hidden;
+  color: whitesmoke;
+  background-size: cover;
+  padding: 10rem 0 0;
+  width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
 
-    transition: transform 500ms ease;
+  transition: transform 500ms ease;
 }
 
 .card:first-child {
-    background-image: url(/blog-images/1.jpeg);
+  background-image: url(/blog-images/1.jpeg);
 }
 
 .card:nth-child(2) {
-    background-image: url(/blog-images/2.jpeg);
+  background-image: url(/blog-images/2.jpeg);
 }
 
 .card:nth-child(3) {
-    background-image: url(/blog-images/3.jpeg);
+  background-image: url(/blog-images/3.jpeg);
 }
 
 .card:nth-child(4) {
-    background-image: url(/blog-images/4.jpeg);
+  background-image: url(/blog-images/4.jpeg);
 }
 
 .card:nth-child(5) {
-    background-image: url(/blog-images/5.jpg);
+  background-image: url(/blog-images/5.jpg);
 }
 
 .card:nth-child(6) {
-    background-image: url(/blog-images/6.jpg);
-    background-size: 100% 100%;
+  background-image: url(/blog-images/6.jpg);
+  background-size: 100% 100%;
 }
 
 .card:nth-child(7) {
-    background-image: url(/blog-images/7.jpg);
+  background-image: url(/blog-images/7.jpg);
 }
 
 .card:nth-child(8) {
-    background-image: url(/blog-images/8.jpg);
+  background-image: url(/blog-images/8.jpg);
 }
 
 .card:nth-child(9) {
-    background-image: url(/blog-images/9.jpg);
+  background-image: url(/blog-images/9.jpg);
 }
 
 .card:nth-child(10) {
-    background-image: url(/blog-images/10.jpeg);
+  background-image: url(/blog-images/10.jpeg);
 }
 
 .card:nth-child(11) {
-    background-image: url(/blog-images/11.jpeg);
+  background-image: url(/blog-images/11.jpeg);
 }
 
 .card:nth-child(12) {
-    background-image: url(/blog-images/12.jpg);
+  background-image: url(/blog-images/12.jpg);
+}
+
+.card:nth-child(13) {
+  background-image: url(/blog-images/13.jpeg);
+}
+
+.card:nth-child(14) {
+  background-image: url(/blog-images/14.jpeg);
 }
 
 .card:hover,
 .card:focus-within {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .cardcontent {
-    --padding: 1.5rem;
-    padding: var(--padding);
-    background: linear-gradient(hsl(0 0% 0% / 0),
-            hsl(0 0% 0% / 1));
+  --padding: 1.5rem;
+  padding: var(--padding);
+  background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 1));
 }
 
 .cardtitle {
-    position: relative;
-    width: max-content;
+  position: relative;
+  width: max-content;
 }
 
 .cardtitle::after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    left: calc(var(--padding) * -1);
-    bottom: 0;
-    width: calc(100% + var(--padding));
-    background: var(--clr-accent-400);
-    transform-origin: left;
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: 0;
+  width: calc(100% + var(--padding));
+  background: var(--clr-accent-400);
+  transform-origin: left;
 
-    transition: transform 500ms ease;
+  transition: transform 500ms ease;
 }
 
 .card:hover .cardtitle::after,
 .card:focus-within .cardtitle::after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .cardbody {
-    color: rgb(255, 255, 255 / 0.8);
+  color: rgb(255, 255, 255 / 0.8);
 }
 
 @media (hover) {
+  .card:nth-child(4),
+  .card:nth-child(7),
+  .card:nth-child(8),
+  .card:nth-child(9),
+  .card:nth-child(10),
+  .card:nth-child(11),
+  .card:nth-child(13),
+  .card:nth-child(14) {
+    padding: 7.7rem 0 0;
+  }
 
-    .card:nth-child(4), .card:nth-child(7), .card:nth-child(8), .card:nth-child(9){
-        padding: 7.7rem 0 0;
-    }
+  .cardcontent {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
 
-    .cardcontent {
-        transform: translateY(65%);
-        transition: transform 500ms ease;
-    }
+  .card:nth-child(4) .cardcontent,
+  .card:nth-child(7) .cardcontent,
+  .card:nth-child(8) .cardcontent,
+  .card:nth-child(9) .cardcontent,
+  .card:nth-child(10) .cardcontent,
+  .card:nth-child(11) .cardcontent,
+  .card:nth-child(13) .cardcontent,
+  .card:nth-child(14) .cardcontent {
+    transform: translateY(58%);
+  }
 
-    .card:nth-child(4) .cardcontent, .card:nth-child(7) .cardcontent, .card:nth-child(8) .cardcontent, .card:nth-child(9) .cardcontent, .card:nth-child(10) .cardcontent, .card:nth-child(11) .cardcontent{
-        transform: translateY(58%);
-    }
+  .card:hover .cardcontent,
+  .card:focus-within .cardcontent {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
 
-    .card:hover .cardcontent,
-    .card:focus-within .cardcontent {
-        transform: translateY(0);
-        transition-delay: 500ms;
-    }
+  .card:focus-within .cardcontent {
+    transition-duration: 0ms;
+  }
 
-    .card:focus-within .cardcontent {
-        transition-duration: 0ms;
-    }
+  .cardcontent > *:not(.cardtitle) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
 
-    .cardcontent>*:not(.cardtitle) {
-        opacity: 0;
-        transition: opacity 500ms linear;
-    }
+  .card:hover .cardcontent > *:not(.cardtitle),
+  .card:focus-within .cardcontent > *:not(.cardtitle) {
+    opacity: 1;
+    transition-delay: 500ms;
+  }
 
-    .card:hover .cardcontent>*:not(.cardtitle),
-    .card:focus-within .cardcontent>*:not(.cardtitle) {
-        opacity: 1;
-        transition-delay: 500ms;
-    }
-
-    .cardtitle::after {
-        transform: scaleX(0);
-    }
+  .cardtitle::after {
+    transform: scaleX(0);
+  }
 }
 
 .buttonn {
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
-    color: var(--clr-neutral-100);
-    background-color: var(--clr-accent-400);
-    padding: 0.5em 1.25em;
-    border-radius: 0.25em;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-accent-400);
+  padding: 0.5em 1.25em;
+  border-radius: 0.25em;
 }
 
 .buttonn:hover,
 .buttonn:focus {
-    color: var(--clr-accent-400);
-    background-color: var(--clr-neutral-100);
-    font-weight: 700;
+  color: var(--clr-accent-400);
+  background-color: var(--clr-neutral-100);
+  font-weight: 700;
 }
 
-@media screen and (max-width:780px) {
-    .head {
-        padding-left: 1.5rem;
-    }
+@media screen and (max-width: 780px) {
+  .head {
+    padding-left: 1.5rem;
+  }
 
-    .blog {
-        padding-inline: 1rem;
-        margin-bottom: 1.5rem;
-    }
+  .blog {
+    padding-inline: 1rem;
+    margin-bottom: 1.5rem;
+  }
 
-    .cardtitle::after {
-        height: 2px;
-    }
-    .buttonn {
-        padding: 0.25rem 0.4rem;
-        border-radius: 0.25rem;
-    }
+  .cardtitle::after {
+    height: 2px;
+  }
+  .buttonn {
+    padding: 0.25rem 0.4rem;
+    border-radius: 0.25rem;
+  }
 }
