@@ -189,7 +189,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                     </div>
-                    <div id="footerBottom">&copy; Grid Reputation 2021-2023</div>
+                    <div id="footerBottom">&copy; Grid Reputation 2021-2024</div>
                 </footer>
             </main>
         </div>
