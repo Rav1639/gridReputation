@@ -12,17 +12,19 @@ export default function Services() {
     <div>
       <Head>
 
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11429791782">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+         <script>
+        // Load Google Tag Manager script asynchronously
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-11429791782';
+        document.head.appendChild(script);
 
-  gtag('config', 'AW-11429791782');
-</script>
-
+        // Define and configure Google Tag Manager
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11429791782');
+    </script>
         
         <title>Services</title>
       </Head>
