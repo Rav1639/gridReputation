@@ -12,19 +12,6 @@ export default function Services() {
     <div>
       <Head>
 
-         <script>
-        // Load Google Tag Manager script asynchronously
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-11429791782';
-        document.head.appendChild(script);
-
-        // Define and configure Google Tag Manager
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'AW-11429791782');
-    </script>
         
         <title>Services</title>
       </Head>
