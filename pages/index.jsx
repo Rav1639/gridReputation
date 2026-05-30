@@ -412,7 +412,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div id="footerBottom">&copy; Grid Reputation 2021-2024</div>
+            <div id="footerBottom">&copy; Grid Reputation 2021-2026</div>
           </footer>
         </main>
       )}
