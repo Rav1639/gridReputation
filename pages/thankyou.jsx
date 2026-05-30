@@ -6,6 +6,27 @@ export default function ThankYou(){
         <div>
             <Head>
                 <title>Thank You</title>
+
+                <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=AW-18180194216"
+    ></script>
+
+    <script
+        dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'AW-18180194216');
+
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-18180194216/ehQMCPb2hLYcEKj__txD'
+                });
+            `,
+        }}
+    />
         
         
 
