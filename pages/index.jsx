@@ -43,6 +43,23 @@ export default function Home() {
           content="The official website for Grid Reputation: A Top Marketing Agency"
         />
         <link rel="icon" href="/grLogo.ico" />
+
+          <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=AW-18180194216"
+  ></script>
+
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-18180194216');
+      `,
+    }}
+  />
       </Head>
 
 
