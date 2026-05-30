@@ -14,6 +14,23 @@ export default function Services() {
 
         
         <title>Services</title>
+
+          <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=AW-18180194216"
+  ></script>
+
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-18180194216');
+      `,
+    }}
+  />
       </Head>
       <main>
         <div id="mobileNav" style={{ display: shown, height: height }}>
